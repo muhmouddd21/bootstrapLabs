@@ -1,0 +1,49 @@
+:root{
+    --main-color:#28a745;
+}
+
+#Peak-word{
+    color: var(--main-color);
+}
+nav{
+    box-shadow: 0 0 20px #ddd;
+}
+nav .navbar-collapse .navbar-nav{
+    margin-left: 50px;
+}
+nav .navbar-collapse .navbar-nav li{
+    margin-left: 10px;
+}
+nav .navbar-collapse .navbar-nav .nav-link:hover{
+    background-color: #28a746a4;
+}
+nav .container .collapse .search-area{
+    width: 45%;
+}
+
+.search-area .form-control:focus{
+    box-shadow: 0px 0px 5px #28a745;
+}
+
+/* welcome */
+
+.welcome{
+    background-color: var(--main-color);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.custom-accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(1, 252, 18, 0.25);
+    border-color: var(--main-color);
+    z-index: 3;
+  }
+  .custom-accordion-button:not(.collapsed) {
+    color: #28a745; 
+    background-color: rgba(8, 139, 56, 0.1); 
+  }

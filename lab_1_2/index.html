@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab_1_2</title>
+    <link rel="stylesheet" href="css/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.6-dist/style.css">
+</head>
+<body>
+    <div class="register container mt-5">
+        <div class="card shadow p-4 w-100 mx-auto " style="max-width: 500px;">
+            <h3 class="text-center mb-4">Register</h3>
+            <form action="" onsubmit="event.preventDefault(); window.location.href='login.html';">
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="dob" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="gender" class="form-label">Gender</label>
+                    <select class="form-select" id="gender" required>
+                      <option value="">Select gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <a href="login.html"><button type="submit" class="btn btn-success w-100">Register</button></a>
+                  
+
+            </form>
+        </div>
+    </div>
+  
+  
+    <script src="css/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
